@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.jboss.bom</groupId>
-        <version>1.0.7-SNAPSHOT</version>
+        <groupId>org.jboss.bom.wfk</groupId>
         <artifactId>jboss-bom-parent</artifactId>
+        <version>2.3.0-redhat-SNAPSHOT</version>
     </parent>
 
     <artifactId>jboss-javaee-6.0-with-deltaspike</artifactId>

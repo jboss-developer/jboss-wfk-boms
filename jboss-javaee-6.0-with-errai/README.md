@@ -11,9 +11,9 @@ To use the BOM, import into your dependency management:
     <dependencyManagement>
         <dependencies>
             <dependency>
-               <groupId>org.jboss.bom</groupId>
+               <groupId>org.jboss.bom.wfk</groupId>
                <artifactId>jboss-javaee-6.0-with-errai</artifactId>
-               <version>1.0.7-SNAPSHOT</version>
+               <version>2.3.0-redhat-SNAPSHOT</version>
                <type>pom</scope>
                <scope>import</scope>
             </dependency>

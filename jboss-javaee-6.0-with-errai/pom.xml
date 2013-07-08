@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.jboss.bom</groupId>
-        <version>1.0.7-SNAPSHOT</version>
+        <groupId>org.jboss.bom.wfk</groupId>
         <artifactId>jboss-bom-parent</artifactId>
+        <version>2.3.0-redhat-SNAPSHOT</version>
     </parent>
 
     <artifactId>jboss-javaee-6.0-with-errai</artifactId>
@@ -47,39 +47,39 @@
 
             <!-- All Errai Modules -->
             <dependency>
-              <groupId>org.jboss.errai</groupId>
-              <artifactId>errai-bus</artifactId>
-              <version>${version.org.jboss.errai}</version>
+                <groupId>org.jboss.errai</groupId>
+                <artifactId>errai-bus</artifactId>
+                <version>${version.org.jboss.errai}</version>
             </dependency>
             <dependency>
-              <groupId>org.jboss.errai</groupId>
-              <artifactId>errai-cdi-client</artifactId>
-              <version>${version.org.jboss.errai}</version>
+                <groupId>org.jboss.errai</groupId>
+                <artifactId>errai-cdi-client</artifactId>
+                <version>${version.org.jboss.errai}</version>
             </dependency>
             <dependency>
-              <groupId>org.jboss.errai</groupId>
-              <artifactId>errai-cdi-jetty</artifactId>
-              <version>${version.org.jboss.errai}</version>
+                <groupId>org.jboss.errai</groupId>
+                <artifactId>errai-cdi-jetty</artifactId>
+                <version>${version.org.jboss.errai}</version>
             </dependency>
             <dependency>
-              <groupId>org.jboss.errai</groupId>
-              <artifactId>errai-codegen</artifactId>
-              <version>${version.org.jboss.errai}</version>
+                <groupId>org.jboss.errai</groupId>
+                <artifactId>errai-codegen</artifactId>
+                <version>${version.org.jboss.errai}</version>
             </dependency>
             <dependency>
-              <groupId>org.jboss.errai</groupId>
-              <artifactId>errai-codegen-gwt</artifactId>
-              <version>${version.org.jboss.errai}</version>
+                <groupId>org.jboss.errai</groupId>
+                <artifactId>errai-codegen-gwt</artifactId>
+                <version>${version.org.jboss.errai}</version>
             </dependency>
             <dependency>
-              <groupId>org.jboss.errai</groupId>
-              <artifactId>errai-common</artifactId>
-              <version>${version.org.jboss.errai}</version>
+                <groupId>org.jboss.errai</groupId>
+                <artifactId>errai-common</artifactId>
+                <version>${version.org.jboss.errai}</version>
             </dependency>
             <dependency>
-              <groupId>org.jboss.errai</groupId>
-              <artifactId>errai-config</artifactId>
-              <version>${version.org.jboss.errai}</version>
+                <groupId>org.jboss.errai</groupId>
+                <artifactId>errai-config</artifactId>
+                <version>${version.org.jboss.errai}</version>
             </dependency>
 
             <!-- Coming in Errai 3.0
@@ -91,9 +91,9 @@
             -->
 
             <dependency>
-              <groupId>org.jboss.errai</groupId>
-              <artifactId>errai-data-binding</artifactId>
-              <version>${version.org.jboss.errai}</version>
+                <groupId>org.jboss.errai</groupId>
+                <artifactId>errai-data-binding</artifactId>
+                <version>${version.org.jboss.errai}</version>
             </dependency>
 
             <!-- Coming in Errai 3.0
@@ -105,9 +105,9 @@
             -->
 
             <dependency>
-              <groupId>org.jboss.errai</groupId>
-              <artifactId>errai-ioc</artifactId>
-              <version>${version.org.jboss.errai}</version>
+                <groupId>org.jboss.errai</groupId>
+                <artifactId>errai-ioc</artifactId>
+                <version>${version.org.jboss.errai}</version>
             </dependency>
 
             <!-- Coming in Errai 3.0
@@ -119,24 +119,24 @@
             -->
 
             <dependency>
-              <groupId>org.jboss.errai</groupId>
-              <artifactId>errai-javaee-all</artifactId>
-              <version>${version.org.jboss.errai}</version>
+                <groupId>org.jboss.errai</groupId>
+                <artifactId>errai-javaee-all</artifactId>
+                <version>${version.org.jboss.errai}</version>
             </dependency>
             <dependency>
-              <groupId>org.jboss.errai</groupId>
-              <artifactId>errai-javax-enterprise</artifactId>
-              <version>${version.org.jboss.errai}</version>
+                <groupId>org.jboss.errai</groupId>
+                <artifactId>errai-javax-enterprise</artifactId>
+                <version>${version.org.jboss.errai}</version>
             </dependency>
             <dependency>
-              <groupId>org.jboss.errai</groupId>
-              <artifactId>errai-jaxrs-client</artifactId>
-              <version>${version.org.jboss.errai}</version>
+                <groupId>org.jboss.errai</groupId>
+                <artifactId>errai-jaxrs-client</artifactId>
+                <version>${version.org.jboss.errai}</version>
             </dependency>
             <dependency>
-              <groupId>org.jboss.errai</groupId>
-              <artifactId>errai-jaxrs-provider</artifactId>
-              <version>${version.org.jboss.errai}</version>
+                <groupId>org.jboss.errai</groupId>
+                <artifactId>errai-jaxrs-provider</artifactId>
+                <version>${version.org.jboss.errai}</version>
             </dependency>
 
             <!-- Coming in Errai 3.0
@@ -148,44 +148,44 @@
             -->
 
             <dependency>
-              <groupId>org.jboss.errai</groupId>
-              <artifactId>errai-jpa-client</artifactId>
-              <version>${version.org.jboss.errai}</version>
+                <groupId>org.jboss.errai</groupId>
+                <artifactId>errai-jpa-client</artifactId>
+                <version>${version.org.jboss.errai}</version>
             </dependency>
             <dependency>
-              <groupId>org.jboss.errai</groupId>
-              <artifactId>errai-js</artifactId>
-              <version>${version.org.jboss.errai}</version>
+                <groupId>org.jboss.errai</groupId>
+                <artifactId>errai-js</artifactId>
+                <version>${version.org.jboss.errai}</version>
             </dependency>
             <dependency>
-              <groupId>org.jboss.errai</groupId>
-              <artifactId>errai-marshalling</artifactId>
-              <version>${version.org.jboss.errai}</version>
+                <groupId>org.jboss.errai</groupId>
+                <artifactId>errai-marshalling</artifactId>
+                <version>${version.org.jboss.errai}</version>
             </dependency>
             <dependency>
-              <groupId>org.jboss.errai</groupId>
-              <artifactId>errai-navigation</artifactId>
-              <version>${version.org.jboss.errai}</version>
+                <groupId>org.jboss.errai</groupId>
+                <artifactId>errai-navigation</artifactId>
+                <version>${version.org.jboss.errai}</version>
             </dependency>
             <dependency>
-              <groupId>org.jboss.errai</groupId>
-              <artifactId>errai-tools</artifactId>
-              <version>${version.org.jboss.errai}</version>
+                <groupId>org.jboss.errai</groupId>
+                <artifactId>errai-tools</artifactId>
+                <version>${version.org.jboss.errai}</version>
             </dependency>
             <dependency>
-              <groupId>org.jboss.errai</groupId>
-              <artifactId>errai-ui</artifactId>
-              <version>${version.org.jboss.errai}</version>
+                <groupId>org.jboss.errai</groupId>
+                <artifactId>errai-ui</artifactId>
+                <version>${version.org.jboss.errai}</version>
             </dependency>
             <dependency>
-              <groupId>org.jboss.errai</groupId>
-              <artifactId>errai-uibinder</artifactId>
-              <version>${version.org.jboss.errai}</version>
+                <groupId>org.jboss.errai</groupId>
+                <artifactId>errai-uibinder</artifactId>
+                <version>${version.org.jboss.errai}</version>
             </dependency>
             <dependency>
-              <groupId>org.jboss.errai</groupId>
-              <artifactId>errai-webworkers</artifactId>
-              <version>${version.org.jboss.errai}</version>
+                <groupId>org.jboss.errai</groupId>
+                <artifactId>errai-webworkers</artifactId>
+                <version>${version.org.jboss.errai}</version>
             </dependency>
 
             <!-- Coming in Errai 3.0
@@ -197,14 +197,14 @@
             -->
 
             <dependency>
-              <groupId>org.jboss.errai</groupId>
-              <artifactId>errai-weld-integration</artifactId>
-              <version>${version.org.jboss.errai}</version>
+                <groupId>org.jboss.errai</groupId>
+                <artifactId>errai-weld-integration</artifactId>
+                <version>${version.org.jboss.errai}</version>
             </dependency>
             <dependency>
-              <groupId>org.jboss.errai</groupId>
-              <artifactId>reflections</artifactId>
-              <version>${version.org.jboss.errai}</version>
+                <groupId>org.jboss.errai</groupId>
+                <artifactId>reflections</artifactId>
+                <version>${version.org.jboss.errai}</version>
             </dependency>
 
             <!-- Google Web Toolkit (GWT) -->
