@@ -17,6 +17,4 @@ To use the BOM, import into your dependency management. For example, if you want
                 <scope>import</scope>
             </dependency>
         </dependencies>
-    </dependencyManagement> 
-	
-
+    </dependencyManagement>
