@@ -52,11 +52,14 @@
         <version.org.jboss.spec.jboss.javaee.6.0>3.0.2.Final</version.org.jboss.spec.jboss.javaee.6.0>
         <version.org.richfaces>4.3.3.Final</version.org.richfaces>
 
+        <!-- Version of Hibernate Search -->
+        <version.org.hibernate.search>4.3.0.Final</version.org.hibernate.search>
+
         <!-- Versions of projects not directly under JBoss umbrella -->
         <version.com.google.gwt>2.5.1</version.com.google.gwt>
         <version.org.mvel>2.1.Beta8</version.org.mvel>
         <version.javax.validation>1.0.0.GA</version.javax.validation>
-        
+
         <!-- Versions of Spring Projects-->
         <version.spring>3.2.3.RELEASE</version.spring>
         <version.spring.security>3.1.4.RELEASE</version.spring.security>
@@ -85,6 +88,7 @@
     <modules>
         <module>jboss-javaee-6.0-with-deltaspike</module>
         <module>jboss-javaee-6.0-with-errai</module>
+        <module>jboss-javaee-6.0-with-hsearch</module>
         <module>jboss-javaee-6.0-with-richfaces</module>
         <module>jboss-javaee-6.0-with-spring</module>
     </modules>
