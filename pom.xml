@@ -6,7 +6,7 @@
 
     <groupId>org.jboss.bom.wfk</groupId>
     <artifactId>jboss-bom-parent</artifactId>
-    <version>2.4.0.Final-redhat-SNAPSHOT</version>
+    <version>2.4.0.Final-redhat-1</version>
 
     <packaging>pom</packaging>
 
@@ -56,7 +56,7 @@
         <!-- Versions of JBoss projects -->
         <version.org.jboss.errai>2.3.2.Final-redhat-1</version.org.jboss.errai>
         <version.org.jboss.spec.jboss.javaee.6.0>3.0.2.Final-redhat-4</version.org.jboss.spec.jboss.javaee.6.0>
-        <version.org.richfaces>4.3.4.Final-redhat-1</version.org.richfaces>
+        <version.org.richfaces>4.3.2.Final-redhat-1</version.org.richfaces>
 
         <!-- Version of Hibernate Search -->
         <version.org.hibernate.search>4.3.0.Final-redhat-wfk-3</version.org.hibernate.search>
