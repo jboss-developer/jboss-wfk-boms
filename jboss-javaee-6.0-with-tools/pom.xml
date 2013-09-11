@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.jboss.bom.eap</groupId>
+        <groupId>org.jboss.bom.wfk</groupId>
         <version>2.4.0.Final-redhat-1</version>
         <artifactId>jboss-bom-parent</artifactId>
     </parent>
