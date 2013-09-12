@@ -43,6 +43,8 @@
     </licenses>
 
     <properties>
+        <version.org.jboss.bom.eap>1.0.4.Final-redhat-9</version.org.jboss.bom.eap>
+
         <!-- Versions of Arquillian and Shrinkwrap -->
         <version.org.jboss.arquillian>1.1.0.Final</version.org.jboss.arquillian>
         <version.org.jboss.arquillian.extension.drone>1.1.1.Final</version.org.jboss.arquillian.extension.drone>
