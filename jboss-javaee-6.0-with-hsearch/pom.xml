@@ -51,7 +51,7 @@
             <dependency>
                 <groupId>org.jboss.bom</groupId>
                 <artifactId>jboss-javaee-6.0-with-hibernate</artifactId>
-                <version>1.0.4.Final-redhat-9</version>
+                <version>${version.org.jboss.bom.eap}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
