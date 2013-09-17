@@ -20,7 +20,7 @@ DIR=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
 # DEFINE
 
 # EAP team email subject
-EMAIL_SUBJECT="\${RELEASEVERSION} of JBoss BOMs released, please merge with http://github.com/jboss-eap/jboss-bom, tag and add to EAP maven repo build"
+EMAIL_SUBJECT="\${RELEASEVERSION} of JBoss WFK BOMs released, please merge with http://github.com/jboss-eap/jboss-bom, tag and add to EAP maven repo build"
 # EAP team email To ?
 EMAIL_TO="pgier@redhat.com kpiwko@redhat.com"
 EMAIL_FROM="\"JDF Publish Script\" <benevides@redhat.com>"
