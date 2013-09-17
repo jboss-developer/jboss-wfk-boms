@@ -15,7 +15,7 @@ To use the BOM, import into your dependency management:
             <dependency>
                <groupId>org.jboss.bom.wfk</groupId>
                <artifactId>jboss-javaee-6.0-with-tools</artifactId>
-               <version>2.4.0.Final-redhat-1</version>
+               <version>2.4.0-build-SNAPSHOT</version>
                <type>pom</type>
                <scope>import</scope>
             </dependency>
@@ -37,7 +37,7 @@ Unfortunately, Maven doesn't allow you to specify plugin versions this way. To u
             <plugin>
                 <groupId>org.jboss.as.plugins</groupId>
                 <artifactId>jboss-as-maven-plugin</artifactId>
-                <version>7.3.Final</version>
+                <version>7.4.Final</version>
             </plugin>
         </plugins>
     </pluginManagement>
