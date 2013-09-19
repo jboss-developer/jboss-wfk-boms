@@ -84,6 +84,8 @@
         <version.aspectj>1.7.1</version.aspectj>
 
         <!-- Versions of Maven plugins, user must setup them by his/her own -->
+        <version.surefire.plugin>2.10</version.surefire.plugin>
+        <version.org.jboss.as.plugins.maven.plugin>7.4.Final</version.org.jboss.as.plugins.maven.plugin>
         <version.org.codehaus.mojo.gwt.maven.plugin>${version.com.google.gwt}</version.org.codehaus.mojo.gwt.maven.plugin>
 
         <!-- Repository Deployment URLs -->
