@@ -13,7 +13,7 @@ To use the BOM, import into your dependency management:
             <dependency>
                <groupId>org.jboss.bom.wfk</groupId>
                <artifactId>jboss-javaee-6.0-with-richfaces</artifactId>
-               <version>2.4.0-build-SNAPSHOT</version>
+               <version>2.4.0-build-2</version>
                <type>pom</type>
                <scope>import</scope>
             </dependency>
