@@ -6,7 +6,7 @@
 
     <groupId>org.jboss.bom.wfk</groupId>
     <artifactId>jboss-bom-parent</artifactId>
-    <version>2.4.0-build-2</version>
+    <version>2.4.0-build-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
