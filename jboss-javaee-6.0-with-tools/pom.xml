@@ -100,6 +100,15 @@
                 <type>pom</type>
             </dependency>
 
+            <!-- Arquillian Graphene2 is an enhanced tool based on WebDriver
+                             allowing you to test AJAX even more easily -->
+            <dependency>
+                <groupId>org.jboss.arquillian.graphene</groupId>
+                <artifactId>graphene-webdriver</artifactId>
+                <version>${version.org.jboss.arquillian.graphene2}</version>
+                <type>pom</type>
+            </dependency>
+
             <!-- Arquillian support for JBoss AS7 container -->
             <!-- Note: Managed version of container allows Arquillian to 
                                  control startup and shutdown of the container -->
