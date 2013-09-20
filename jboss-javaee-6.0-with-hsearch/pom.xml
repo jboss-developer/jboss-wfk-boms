@@ -7,7 +7,7 @@
     <parent>
         <groupId>org.jboss.bom.wfk</groupId>
         <version>2.4.0-build-SNAPSHOT</version>
-        <artifactId>jboss-bom-parent</artifactId>
+        <artifactId>jboss-wfk-bom-parent</artifactId>
     </parent>
 
     <artifactId>jboss-javaee-6.0-with-hsearch</artifactId>
