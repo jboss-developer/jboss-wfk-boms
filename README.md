@@ -13,7 +13,7 @@ To use the BOM, import into your dependency management. For example, if you want
             <dependency>
                 <groupId>org.jboss.bom.wfk</groupId>
                 <artifactId>jboss-javaee-web-6.0-with-deltaspike</artifactId>
-                <version>2.4.0-build-4</version>
+                <version>2.4.0-build-SNAPSHOT</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
