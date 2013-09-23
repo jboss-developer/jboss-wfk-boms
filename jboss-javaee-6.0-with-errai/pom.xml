@@ -202,7 +202,7 @@
                 <version>${version.org.jboss.errai}</version>
             </dependency>
             <dependency>
-                <groupId>org.jboss.errai</groupId>
+                <groupId>org.jboss.errai.reflections</groupId>
                 <artifactId>reflections</artifactId>
                 <version>${version.org.jboss.errai}</version>
             </dependency>

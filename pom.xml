@@ -44,7 +44,7 @@
 
     <properties>
         <!-- WFK 2.4.0 uses EAP 6.1.1 BOM -->
-        <version.org.jboss.bom.eap>1.0.4.Final-redhat-9</version.org.jboss.bom.eap>
+        <version.org.jboss.bom.eap>1.0.7.Final</version.org.jboss.bom.eap>
 
         <!-- Versions of Arquillian and Shrinkwrap -->
         <version.org.jboss.arquillian>1.1.0.Final</version.org.jboss.arquillian>
@@ -60,10 +60,10 @@
         <!-- Versions of JBoss projects -->
         <version.org.jboss.errai>2.3.2.Final-redhat-1</version.org.jboss.errai>
         <version.org.jboss.spec.jboss.javaee.6.0>3.0.2.Final-redhat-4</version.org.jboss.spec.jboss.javaee.6.0>
-        <version.org.richfaces>4.3.2.Final-redhat-1</version.org.richfaces>
+        <version.org.richfaces>4.3.2.Final</version.org.richfaces>
 
         <!-- Version of Hibernate Search -->
-        <version.org.hibernate.search>4.3.0.Final-redhat-wfk-3</version.org.hibernate.search>
+        <version.org.hibernate.search>4.3.0.Final</version.org.hibernate.search>
 
         <!-- Versions of projects not directly under JBoss umbrella -->
         <version.com.google.gwt>2.5.1</version.com.google.gwt>
