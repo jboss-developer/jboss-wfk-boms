@@ -6,7 +6,7 @@
 
     <groupId>org.jboss.bom.wfk</groupId>
     <artifactId>jboss-wfk-bom-parent</artifactId>
-    <version>2.4.0-build-SNAPSHOT</version>
+    <version>2.4.0-redhat-1</version>
 
     <packaging>pom</packaging>
 
@@ -44,7 +44,7 @@
 
     <properties>
         <!-- WFK 2.4.0 uses EAP 6.1.1 BOM -->
-        <version.org.jboss.bom.eap>1.0.7.Final</version.org.jboss.bom.eap>
+        <version.org.jboss.bom.eap>1.0.4.Final-redhat-9</version.org.jboss.bom.eap>
 
         <!-- Versions of Arquillian and Shrinkwrap -->
         <version.org.jboss.arquillian>1.1.0.Final</version.org.jboss.arquillian>
@@ -60,10 +60,10 @@
         <!-- Versions of JBoss projects -->
         <version.org.jboss.errai>2.3.2.Final-redhat-1</version.org.jboss.errai>
         <version.org.jboss.spec.jboss.javaee.6.0>3.0.2.Final-redhat-4</version.org.jboss.spec.jboss.javaee.6.0>
-        <version.org.richfaces>4.3.2.Final</version.org.richfaces>
+        <version.org.richfaces>4.3.4.Final-redhat-1</version.org.richfaces>
 
         <!-- Version of Hibernate Search -->
-        <version.org.hibernate.search>4.3.0.Final</version.org.hibernate.search>
+        <version.org.hibernate.search>4.3.0.Final-redhat-wfk-3</version.org.hibernate.search>
 
         <!-- Versions of projects not directly under JBoss umbrella -->
         <version.com.google.gwt>2.5.1</version.com.google.gwt>
@@ -73,17 +73,17 @@
         <version.org.testng>5.14.6</version.org.testng>
 
         <!-- Versions of Spring Projects-->
-        <version.spring>3.2.3.RELEASE</version.spring>
+        <version.spring>3.2.4.RELEASE</version.spring>
         <version.spring.security>3.1.4.RELEASE</version.spring.security>
         <version.spring.webflow>2.3.2.RELEASE</version.spring.webflow>
         <version.spring.ws>2.1.3.RELEASE</version.spring.ws>
 
         <!-- Versions of Snowdrop -->
-        <version.snowdrop>2.0.5.Final-redhat-2</version.snowdrop>
+        <version.snowdrop>3.0.2.Final-redhat-1</version.snowdrop>
 
         <!-- Versions of Spring Third Party dependencies -->
         <version.aopalliance>1.0</version.aopalliance>
-        <version.aspectj>1.7.1</version.aspectj>
+        <version.aspectj>1.7.3</version.aspectj>
 
         <!-- Versions of Maven plugins, user must setup them by his/her own -->
         <version.surefire.plugin>2.10</version.surefire.plugin>
