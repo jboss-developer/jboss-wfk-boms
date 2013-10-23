@@ -267,7 +267,7 @@
             </dependency>
             <dependency>
                 <groupId>org.jboss.snowdrop</groupId>
-                <artifactId>snowdrop-interceptors-core</artifactId>
+                <artifactId>snowdrop-interceptors</artifactId>
                 <version>${version.snowdrop}</version>
             </dependency>
             <dependency>
