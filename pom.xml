@@ -63,7 +63,7 @@
         <version.org.richfaces>4.3.4.Final-redhat-1</version.org.richfaces>
 
         <!-- Version of Hibernate Search -->
-        <version.org.hibernate.search>4.4.0.Final-redhat-wfk-1</version.org.hibernate.search>
+        <version.org.hibernate.search>4.4.0.Final-redhat-wfk-2</version.org.hibernate.search>
 
         <!-- Versions of projects not directly under JBoss umbrella -->
         <version.com.google.gwt>2.5.1</version.com.google.gwt>
