@@ -27,6 +27,11 @@
 
     <properties>
         <!-- Version properties are inherited from parent -->
+
+        <!-- Ignore Hibernate unsupported Dependencies from being checked as resolvable -->
+        <qstools.bom-check.ignoredDependencies>
+            org.hibernate:hibernate-c3p0:jar:4.2.0.SP1-redhat-1,org.hibernate:hibernate-ehcache:jar:4.2.0.SP1-redhat-1,org.hibernate:hibernate-proxool:jar:4.2.0.SP1-redhat-1
+        </qstools.bom-check.ignoredDependencies>
     </properties>
 
     <dependencyManagement>
