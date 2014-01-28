@@ -6,7 +6,7 @@
 
     <parent>
         <groupId>org.jboss.bom.wfk</groupId>
-        <version>2.5.0-build-SNAPSHOT</version>
+        <version>2.5.0-redhat-1</version>
         <artifactId>jboss-wfk-bom-parent</artifactId>
     </parent>
 
