@@ -73,13 +73,13 @@
         <version.org.testng>5.14.6</version.org.testng>
 
         <!-- Versions of Spring Projects-->
-        <version.spring>4.0.0.RELEASE</version.spring>
+        <version.spring>4.0.1.RELEASE</version.spring>
         <version.spring.security>3.2.0.RELEASE</version.spring.security>
         <version.spring.webflow>2.3.3.RELEASE</version.spring.webflow>
         <version.spring.ws>2.1.4.RELEASE</version.spring.ws>
 
         <!-- Versions of Snowdrop -->
-        <version.snowdrop>3.0.2.Final-redhat-1</version.snowdrop>
+        <version.snowdrop>3.1.0.Final</version.snowdrop>
 
         <!-- Versions of Spring Third Party dependencies -->
         <version.aopalliance>1.0</version.aopalliance>
