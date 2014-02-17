@@ -47,7 +47,7 @@
                 <scope>import</scope>
             </dependency>
 
-            <!--  Spring 3rd party dependecies  -->
+            <!--  Spring 3rd party dependencies  -->
             <dependency>
                 <groupId>aopalliance</groupId>
                 <artifactId>aopalliance</artifactId>
