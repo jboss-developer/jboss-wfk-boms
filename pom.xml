@@ -74,13 +74,13 @@
 
         <!-- Versions of Spring 3.2 Projects -->
         <version.spring>3.2.8.RELEASE</version.spring>
-        <version.spring.security>3.2.0.RELEASE</version.spring.security>
+        <version.spring.security>3.2.1.RELEASE</version.spring.security>
         <version.spring.webflow>2.3.2.RELEASE</version.spring.webflow>
         <version.spring.ws>2.1.4.RELEASE</version.spring.ws>
 
         <!-- Versions of Spring 4 Projects -->
         <version.spring4>4.0.2.RELEASE</version.spring4>
-        <version.spring4.security>3.2.0.RELEASE</version.spring4.security>
+        <version.spring4.security>3.2.1.RELEASE</version.spring4.security>
         <version.spring4.webflow>2.3.3.RELEASE</version.spring4.webflow>
         <version.spring4.ws>2.1.4.RELEASE</version.spring4.ws>
 
