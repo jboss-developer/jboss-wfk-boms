@@ -13,7 +13,7 @@ To use the BOM, import into your dependency management:
             <dependency>
                <groupId>org.jboss.bom.wfk</groupId>
                <artifactId>jboss-javaee-6.0-with-spring4</artifactId>
-               <version>2.5.0-build-5</version>
+               <version>2.5.0-build-SNAPSHOT</version>
                <type>pom</type>
                <scope>import</scope>
             </dependency>
