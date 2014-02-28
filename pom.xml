@@ -48,7 +48,7 @@
 
         <!-- Versions of Arquillian and Shrinkwrap -->
         <version.org.jboss.arquillian>1.1.0.Final</version.org.jboss.arquillian>
-        <version.org.jboss.arquillian.extension.drone>1.2.2.Final</version.org.jboss.arquillian.extension.drone>
+        <version.org.jboss.arquillian.extension.drone>1.2.3.Final</version.org.jboss.arquillian.extension.drone>
         <version.org.jboss.arquillian.graphene>1.0.0.Final</version.org.jboss.arquillian.graphene>
         <version.org.jboss.arquillian.graphene2>2.0.0.Final</version.org.jboss.arquillian.graphene2>
         <version.org.jboss.as.arquillian.container>7.2.0.Final</version.org.jboss.as.arquillian.container>
@@ -72,11 +72,17 @@
         <version.org.mvel>2.1.Beta8</version.org.mvel>
         <version.org.testng>5.14.6</version.org.testng>
 
-        <!-- Versions of Spring Projects-->
-        <version.spring>4.0.1.RELEASE</version.spring>
-        <version.spring.security>3.2.0.RELEASE</version.spring.security>
-        <version.spring.webflow>2.3.3.RELEASE</version.spring.webflow>
+        <!-- Versions of Spring 3.2 Projects -->
+        <version.spring>3.2.8.RELEASE</version.spring>
+        <version.spring.security>3.2.1.RELEASE</version.spring.security>
+        <version.spring.webflow>2.3.2.RELEASE</version.spring.webflow>
         <version.spring.ws>2.1.4.RELEASE</version.spring.ws>
+
+        <!-- Versions of Spring 4 Projects -->
+        <version.spring4>4.0.2.RELEASE</version.spring4>
+        <version.spring4.security>3.2.1.RELEASE</version.spring4.security>
+        <version.spring4.webflow>2.3.3.RELEASE</version.spring4.webflow>
+        <version.spring4.ws>2.1.4.RELEASE</version.spring4.ws>
 
         <!-- Versions of Snowdrop -->
         <version.snowdrop>3.1.0.Final-redhat-1</version.snowdrop>
@@ -105,6 +111,7 @@
         <module>jboss-javaee-6.0-with-hsearch</module>
         <module>jboss-javaee-6.0-with-richfaces</module>
         <module>jboss-javaee-6.0-with-spring</module>
+        <module>jboss-javaee-6.0-with-spring4</module>
         <module>jboss-javaee-6.0-with-tools</module>
     </modules>
 
