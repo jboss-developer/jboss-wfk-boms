@@ -91,15 +91,6 @@
                 <type>pom</type>
             </dependency>
 
-            <!-- Arquillian Graphene is an enhanced tool based on Selenium 
-                                 allowing you to test AJAX more easily -->
-            <dependency>
-                <groupId>org.jboss.arquillian.graphene</groupId>
-                <artifactId>arquillian-graphene</artifactId>
-                <version>${version.org.jboss.arquillian.graphene}</version>
-                <type>pom</type>
-            </dependency>
-
             <!-- Arquillian Graphene2 is an enhanced tool based on WebDriver
                              allowing you to test AJAX even more easily -->
             <dependency>
