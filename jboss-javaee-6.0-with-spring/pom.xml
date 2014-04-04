@@ -195,6 +195,11 @@
                 <artifactId>spring-security-web</artifactId>
                 <version>${version.spring.security}</version>
             </dependency>
+            <dependency>
+                <groupId>org.springframework.security</groupId>
+                <artifactId>spring-security-remoting</artifactId>
+                <version>${version.spring.security}</version>
+            </dependency>
             <!--  webflow  -->
             <dependency>
                 <groupId>org.springframework.webflow</groupId>
