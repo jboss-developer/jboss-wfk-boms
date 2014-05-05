@@ -54,7 +54,7 @@
         <version.org.jboss.shrinkwrap.resolver>2.0.2</version.org.jboss.shrinkwrap.resolver>
         
         <!-- Version of Deltaspike -->
-        <version.org.apache.deltaspike>0.6</version.org.apache.deltaspike>
+        <version.org.apache.deltaspike>0.7</version.org.apache.deltaspike>
 
         <!-- Versions of JBoss projects -->
         <version.org.jboss.spec.jboss.javaee.6.0>3.0.2.Final-redhat-7</version.org.jboss.spec.jboss.javaee.6.0>
