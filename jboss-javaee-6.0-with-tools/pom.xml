@@ -47,7 +47,8 @@
                 <scope>import</scope>
             </dependency>
             
-             <!-- Shrinkwrap resolver -->
+            <!-- Shrinkwrap resolver
+                 override which is only used if we need newer version than what is in ARQ bom
             <dependency>
                 <groupId>org.jboss.shrinkwrap.resolver</groupId>
                 <artifactId>shrinkwrap-resolver-bom</artifactId>
@@ -55,7 +56,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
+            -->
             <!-- Arquillian lets test you your applications in real environment -->
             <dependency>
                 <groupId>org.jboss.arquillian</groupId>
