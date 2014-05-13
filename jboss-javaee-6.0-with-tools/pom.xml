@@ -6,7 +6,7 @@
 
     <parent>
         <groupId>org.jboss.bom.wfk</groupId>
-        <version>2.6.0-build-1</version>
+        <version>UNDEFINED</version>
         <artifactId>jboss-wfk-bom-parent</artifactId>
     </parent>
 
