@@ -41,6 +41,8 @@ Here are the steps in detail:
     * Install a SNAPSHOT version to your LOCAL Maven repository by typing the following command: 
     
             mvn clean install 
+    * Test the resolvability of dependencies in BOMs by typing the following command:
+            mvn -U org.jboss.maven.plugins:maven-qstools-plugin:bom-check -fae
     * Modify the quickstart POM file to include the new BOM.
        * Add a property variable to the `<properties>` section of the POM file and specify the locally installed SNAPSHOT version of the BOM.
        * Add the new BOM to the `<dependencyManagement>` section of the POM. Use the property variable name defined in the previous step to specify the version.
