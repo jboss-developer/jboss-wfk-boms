@@ -13,8 +13,8 @@
     <artifactId>jboss-javaee-6.0-with-deltaspike</artifactId>
     <packaging>pom</packaging>
 
-    <name>JBoss Java EE 6 Specification APIs with Deltaspike</name>
-    <description>Dependency Management for Java EE 6 Specification APIs with Deltaspike</description>
+    <name>JBoss Java EE 6 Specification APIs with DeltaSpike</name>
+    <description>Dependency Management for Java EE 6 Specification APIs with DeltaSpike</description>
 
     <licenses>
         <license>
@@ -47,7 +47,7 @@
                 <scope>import</scope>
             </dependency>
 
-            <!-- Deltaspike Core -->
+            <!-- DeltaSpike Core -->
             <dependency>
                 <groupId>org.apache.deltaspike.core</groupId>
                 <artifactId>deltaspike-core-api</artifactId>
@@ -57,6 +57,32 @@
             <dependency>
                 <groupId>org.apache.deltaspike.core</groupId>
                 <artifactId>deltaspike-core-impl</artifactId>
+                <version>${version.org.apache.deltaspike}</version>
+            </dependency>
+            
+            <!-- Bean Validation Module -->
+            <dependency>
+                <groupId>org.apache.deltaspike.modules</groupId>
+                <artifactId>deltaspike-bean-validation-module-api</artifactId>
+                <version>${version.org.apache.deltaspike}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.deltaspike.modules</groupId>
+                <artifactId>deltaspike-bean-validation-module-impl</artifactId>
+                <version>${version.org.apache.deltaspike}</version>
+            </dependency>
+            
+            <!-- Data Module -->
+            <dependency>
+                <groupId>org.apache.deltaspike.modules</groupId>
+                <artifactId>deltaspike-data-module-api</artifactId>
+                <version>${version.org.apache.deltaspike}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.deltaspike.modules</groupId>
+                <artifactId>deltaspike-data-module-impl</artifactId>
                 <version>${version.org.apache.deltaspike}</version>
             </dependency>
             
@@ -73,20 +99,7 @@
                 <version>${version.org.apache.deltaspike}</version>
             </dependency>
 
-            <!-- Security Module -->
-            <dependency>
-                <groupId>org.apache.deltaspike.modules</groupId>
-                <artifactId>deltaspike-security-module-api</artifactId>
-                <version>${version.org.apache.deltaspike}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.deltaspike.modules</groupId>
-                <artifactId>deltaspike-security-module-impl</artifactId>
-                <version>${version.org.apache.deltaspike}</version>
-            </dependency>
-
-            <!--  JSF Modules -->
+            <!--  JSF Module -->
             <dependency>
                 <groupId>org.apache.deltaspike.modules</groupId>
                 <artifactId>deltaspike-jsf-module-api</artifactId>
@@ -99,7 +112,7 @@
                 <version>${version.org.apache.deltaspike}</version>
             </dependency>
 
-            <!-- Partial Bean -->
+            <!-- Partial Bean Module -->
             <dependency>
                 <groupId>org.apache.deltaspike.modules</groupId>
                 <artifactId>deltaspike-partial-bean-module-api</artifactId>
@@ -111,6 +124,59 @@
                 <artifactId>deltaspike-partial-bean-module-impl</artifactId>
                 <version>${version.org.apache.deltaspike}</version>
             </dependency>
+            
+            <!-- Scheduler Module -->
+            <dependency>
+                <groupId>org.apache.deltaspike.modules</groupId>
+                <artifactId>deltaspike-scheduler-module-api</artifactId>
+                <version>${version.org.apache.deltaspike}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.deltaspike.modules</groupId>
+                <artifactId>deltaspike-scheduler-module-impl</artifactId>
+                <version>${version.org.apache.deltaspike}</version>
+            </dependency>
+
+            <!-- Security Module -->
+            <dependency>
+                <groupId>org.apache.deltaspike.modules</groupId>
+                <artifactId>deltaspike-security-module-api</artifactId>
+                <version>${version.org.apache.deltaspike}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.deltaspike.modules</groupId>
+                <artifactId>deltaspike-security-module-impl</artifactId>
+                <version>${version.org.apache.deltaspike}</version>
+            </dependency>
+            
+            <!-- Servlet Module -->
+            <dependency>
+                <groupId>org.apache.deltaspike.modules</groupId>
+                <artifactId>deltaspike-servlet-module-api</artifactId>
+                <version>${version.org.apache.deltaspike}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.deltaspike.modules</groupId>
+                <artifactId>deltaspike-servlet-module-impl</artifactId>
+                <version>${version.org.apache.deltaspike}</version>
+            </dependency>
+            
+            <!-- Test Control Module -->
+            <dependency>
+                <groupId>org.apache.deltaspike.modules</groupId>
+                <artifactId>deltaspike-test-control-module-api</artifactId>
+                <version>${version.org.apache.deltaspike}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.deltaspike.modules</groupId>
+                <artifactId>deltaspike-test-control-module-impl</artifactId>
+                <version>${version.org.apache.deltaspike}</version>
+            </dependency>
+            
         </dependencies>
 
     </dependencyManagement>
