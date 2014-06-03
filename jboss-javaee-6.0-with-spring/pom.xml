@@ -55,13 +55,18 @@
             </dependency>
             <dependency>
                 <groupId>org.aspectj</groupId>
-                <artifactId>aspectjweaver</artifactId>
+                <artifactId>aspectjrt</artifactId>
                 <version>${version.aspectj}</version>
             </dependency>
             <dependency>
                 <groupId>org.aspectj</groupId>
-                <artifactId>aspectjrt</artifactId>
+                <artifactId>aspectjweaver</artifactId>
                 <version>${version.aspectj}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-aop</artifactId>
+                <version>${version.spring}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
@@ -71,16 +76,6 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-beans</artifactId>
-                <version>${version.spring}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework</groupId>
-                <artifactId>spring-aop</artifactId>
-                <version>${version.spring}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework</groupId>
-                <artifactId>spring-core</artifactId>
                 <version>${version.spring}</version>
             </dependency>
             <dependency>
@@ -95,12 +90,22 @@
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
+                <artifactId>spring-core</artifactId>
+                <version>${version.spring}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
                 <artifactId>spring-expression</artifactId>
                 <version>${version.spring}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
-                <artifactId>spring-tx</artifactId>
+                <artifactId>spring-instrument</artifactId>
+                <version>${version.spring}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-instrument-tomcat</artifactId>
                 <version>${version.spring}</version>
             </dependency>
             <dependency>
@@ -125,17 +130,18 @@
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
+                <artifactId>spring-test</artifactId>
+                <version>${version.spring}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-tx</artifactId>
+                <version>${version.spring}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
                 <artifactId>spring-web</artifactId>
-                <version>${version.spring}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework</groupId>
-                <artifactId>spring-instrument</artifactId>
-                <version>${version.spring}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework</groupId>
-                <artifactId>spring-instrument-tomcat</artifactId>
                 <version>${version.spring}</version>
             </dependency>
             <dependency>
@@ -147,12 +153,6 @@
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-webmvc-portlet</artifactId>
                 <version>${version.spring}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework</groupId>
-                <artifactId>spring-test</artifactId>
-                <version>${version.spring}</version>
-                <scope>test</scope>
             </dependency>
             <!--  security  -->
             <dependency>
@@ -167,12 +167,12 @@
             </dependency>
             <dependency>
                 <groupId>org.springframework.security</groupId>
-                <artifactId>spring-security-core</artifactId>
+                <artifactId>spring-security-config</artifactId>
                 <version>${version.spring.security}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.security</groupId>
-                <artifactId>spring-security-config</artifactId>
+                <artifactId>spring-security-core</artifactId>
                 <version>${version.spring.security}</version>
             </dependency>
             <dependency>
@@ -187,6 +187,11 @@
             </dependency>
             <dependency>
                 <groupId>org.springframework.security</groupId>
+                <artifactId>spring-security-remoting</artifactId>
+                <version>${version.spring.security}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.security</groupId>
                 <artifactId>spring-security-taglibs</artifactId>
                 <version>${version.spring.security}</version>
             </dependency>
@@ -195,12 +200,12 @@
                 <artifactId>spring-security-web</artifactId>
                 <version>${version.spring.security}</version>
             </dependency>
-            <dependency>
-                <groupId>org.springframework.security</groupId>
-                <artifactId>spring-security-remoting</artifactId>
-                <version>${version.spring.security}</version>
-            </dependency>
             <!--  webflow  -->
+            <dependency>
+                <groupId>org.springframework.webflow</groupId>
+                <artifactId>spring-binding</artifactId>
+                <version>${version.spring.webflow}</version>
+            </dependency>
             <dependency>
                 <groupId>org.springframework.webflow</groupId>
                 <artifactId>spring-faces</artifactId>
@@ -221,11 +226,6 @@
                 <artifactId>spring-webflow</artifactId>
                 <version>${version.spring.webflow}</version>
             </dependency>
-            <dependency>
-                <groupId>org.springframework.webflow</groupId>
-                <artifactId>spring-binding</artifactId>
-                <version>${version.spring.webflow}</version>
-            </dependency>
             <!--  ws  -->
             <dependency>
                 <groupId>org.springframework.ws</groupId>
@@ -240,11 +240,6 @@
             </dependency>
             <dependency>
                 <groupId>org.springframework.ws</groupId>
-                <artifactId>spring-ws-support</artifactId>
-                <version>${version.spring.ws}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework.ws</groupId>
                 <artifactId>spring-ws-security</artifactId>
                 <version>${version.spring.ws}</version>
                 <exclusions>
@@ -256,20 +251,15 @@
             </dependency>
             <dependency>
                 <groupId>org.springframework.ws</groupId>
+                <artifactId>spring-ws-support</artifactId>
+                <version>${version.spring.ws}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.ws</groupId>
                 <artifactId>spring-xml</artifactId>
                 <version>${version.spring.ws}</version>
             </dependency>
             <!--  snowdrop  -->
-            <dependency>
-                <groupId>org.jboss.snowdrop</groupId>
-                <artifactId>snowdrop-vfs</artifactId>
-                <version>${version.snowdrop}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.jboss.snowdrop</groupId>
-                <artifactId>snowdrop-weaving</artifactId>
-                <version>${version.snowdrop}</version>
-            </dependency>
             <dependency>
                 <groupId>org.jboss.snowdrop</groupId>
                 <artifactId>snowdrop-interceptors</artifactId>
@@ -278,6 +268,16 @@
             <dependency>
                 <groupId>org.jboss.snowdrop</groupId>
                 <artifactId>snowdrop-namespace</artifactId>
+                <version>${version.snowdrop}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.jboss.snowdrop</groupId>
+                <artifactId>snowdrop-vfs</artifactId>
+                <version>${version.snowdrop}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.jboss.snowdrop</groupId>
+                <artifactId>snowdrop-weaving</artifactId>
                 <version>${version.snowdrop}</version>
             </dependency>
 
