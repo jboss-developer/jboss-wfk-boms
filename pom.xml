@@ -78,7 +78,7 @@
         <!-- Versions of Spring 4 Projects -->
         <version.spring4>4.0.7.RELEASE</version.spring4>
         <version.spring4.security>3.2.5.RELEASE</version.spring4.security>
-        <version.spring4.webflow>2.4.0.RELEASE</version.spring4.webflow>
+        <version.spring4.webflow>2.4.1.RELEASE</version.spring4.webflow>
         <version.spring4.ws>2.2.0.RELEASE</version.spring4.ws>
 
         <!-- Versions of Snowdrop -->
