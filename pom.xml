@@ -43,8 +43,8 @@
     </licenses>
 
     <properties>
-        <!-- WFK 2.7.0 uses EAP 6.3.1 BOM -->
-        <version.org.jboss.bom.eap>6.3.1.GA</version.org.jboss.bom.eap>
+        <!-- WFK 2.7.0 uses EAP 6.3.2 BOM -->
+        <version.org.jboss.bom.eap>6.3.2.GA</version.org.jboss.bom.eap>
 
         <!-- Versions of Arquillian and Shrinkwrap -->
         <version.org.jboss.arquillian>1.1.5.Final</version.org.jboss.arquillian>
