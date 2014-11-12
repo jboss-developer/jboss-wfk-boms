@@ -82,6 +82,12 @@
         <version.spring4.webflow>2.4.1.RELEASE</version.spring4.webflow>
         <version.spring4.ws>2.2.0.RELEASE</version.spring4.ws>
 
+        <!-- Versions of Spring 4.1 Projects -->
+        <version.spring41>4.1.1.RELEASE</version.spring41>
+        <version.spring41.security>3.2.5.RELEASE</version.spring41.security>
+        <version.spring41.webflow>2.4.1.RELEASE</version.spring41.webflow>
+        <version.spring41.ws>2.2.0.RELEASE</version.spring41.ws>
+        
         <!-- Versions of Snowdrop -->
         <version.snowdrop>3.1.1.Final-redhat-1</version.snowdrop>
 
@@ -109,6 +115,7 @@
         <module>jboss-javaee-6.0-with-richfaces</module>
         <module>jboss-javaee-6.0-with-spring</module>
         <module>jboss-javaee-6.0-with-spring4</module>
+        <module>jboss-javaee-6.0-with-spring4.1</module>
         <module>jboss-javaee-6.0-with-tools</module>
     </modules>
 
