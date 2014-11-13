@@ -71,19 +71,19 @@
         <version.org.testng>5.14.6</version.org.testng>
 
         <!-- Versions of Spring 3.2 Projects -->
-        <version.spring>3.2.11.RELEASE</version.spring>
+        <version.spring>3.2.12.RELEASE</version.spring>
         <version.spring.security>3.2.5.RELEASE</version.spring.security>
         <version.spring.webflow>2.3.4.RELEASE</version.spring.webflow>
         <version.spring.ws>2.1.4.RELEASE</version.spring.ws>
 
         <!-- Versions of Spring 4 Projects -->
-        <version.spring4>4.0.7.RELEASE</version.spring4>
+        <version.spring4>4.0.8.RELEASE</version.spring4>
         <version.spring4.security>3.2.5.RELEASE</version.spring4.security>
         <version.spring4.webflow>2.4.1.RELEASE</version.spring4.webflow>
         <version.spring4.ws>2.2.0.RELEASE</version.spring4.ws>
 
         <!-- Versions of Spring 4.1 Projects -->
-        <version.spring41>4.1.1.RELEASE</version.spring41>
+        <version.spring41>4.1.2.RELEASE</version.spring41>
         <version.spring41.security>3.2.5.RELEASE</version.spring41.security>
         <version.spring41.webflow>2.4.1.RELEASE</version.spring41.webflow>
         <version.spring41.ws>2.2.0.RELEASE</version.spring41.ws>
