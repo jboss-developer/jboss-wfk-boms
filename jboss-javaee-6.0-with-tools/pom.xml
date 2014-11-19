@@ -66,6 +66,15 @@
                 <scope>import</scope>
             </dependency>
 
+            <!-- Arquillian Drone bindings for DefaultSelenium based browsers -->
+            <dependency>
+                <groupId>org.jboss.arquillian.selenium</groupId>
+                <artifactId>selenium-bom</artifactId>
+                <version>${version.org.jboss.arquillian.selenium.bom}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            
             <!-- Arquillian Drone adds support for visual testing of your 
                                  application -->
             <dependency>
@@ -75,7 +84,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
+            
             <!-- Arquillian Drone bindings for DefaultSelenium based browsers -->
             <dependency>
                 <groupId>org.jboss.arquillian.extension</groupId>
