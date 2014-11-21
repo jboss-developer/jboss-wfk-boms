@@ -74,7 +74,7 @@
         <!-- Versions of Spring 3.2 Projects -->
         <version.spring>3.2.12.RELEASE</version.spring>
         <version.spring.security>3.2.5.RELEASE</version.spring.security>
-        <version.spring.webflow>2.3.4.RELEASE</version.spring.webflow>
+        <version.spring.webflow>2.4.1.RELEASE</version.spring.webflow>
         <version.spring.ws>2.1.4.RELEASE</version.spring.ws>
 
         <!-- Versions of Spring 4 Projects -->
