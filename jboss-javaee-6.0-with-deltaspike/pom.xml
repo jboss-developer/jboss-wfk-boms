@@ -164,19 +164,6 @@
                 <version>${version.org.apache.deltaspike}</version>
             </dependency>
             
-            <!-- Test Control Module -->
-            <dependency>
-                <groupId>org.apache.deltaspike.modules</groupId>
-                <artifactId>deltaspike-test-control-module-api</artifactId>
-                <version>${version.org.apache.deltaspike}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.deltaspike.modules</groupId>
-                <artifactId>deltaspike-test-control-module-impl</artifactId>
-                <version>${version.org.apache.deltaspike}</version>
-            </dependency>
-            
         </dependencies>
 
     </dependencyManagement>
